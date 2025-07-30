@@ -48,3 +48,8 @@ func (m *PersistentCacheManager) CacheNames() []string {
 	}
 	return names
 }
+
+// GetPersistanceCacheLastMessageState returns a typed cache helper.
+func (m *PersistentCacheManager) GetPersistanceCacheLastMessageState(name string) *PersistanceCacheLastMessageState {
+	return NewPersistanceCacheLastMessageState(m.GetCache(name))
+}
