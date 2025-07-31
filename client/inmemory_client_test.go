@@ -4,7 +4,7 @@ import (
 	"context"
 	"testing"
 
-	cachesdk "multi-level-cache-go-sdk/cache"
+	cachesdk "github.com/nikolaynn/multi-level-cache-go-sdk/cache"
 )
 
 func TestInMemoryClient(t *testing.T) {

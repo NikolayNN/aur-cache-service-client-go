@@ -5,7 +5,7 @@ import (
 	"fmt"
 
 	"aur-cache-service-client-go/models"
-	cachesdk "multi-level-cache-go-sdk/cache"
+	cachesdk "github.com/nikolaynn/multi-level-cache-go-sdk/cache"
 )
 
 // PersistanceCacheLastMessageState provides typed helpers for LastMessageStateCacheEntry values.

@@ -4,7 +4,7 @@ import (
 	"context"
 	"encoding/json"
 
-	cachesdk "multi-level-cache-go-sdk/cache"
+	cachesdk "github.com/nikolaynn/multi-level-cache-go-sdk/cache"
 )
 
 // PersistentCache wraps a named cache managed by the service.

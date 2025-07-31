@@ -4,7 +4,7 @@ import (
 	"context"
 	"sync"
 
-	cachesdk "multi-level-cache-go-sdk/cache"
+	cachesdk "github.com/nikolaynn/multi-level-cache-go-sdk/cache"
 )
 
 // InMemoryCacheClient stores entries in a map for testing.

@@ -4,7 +4,7 @@ import (
 	"context"
 	"sync"
 
-	cachesdk "multi-level-cache-go-sdk/cache"
+	cachesdk "github.com/nikolaynn/multi-level-cache-go-sdk/cache"
 )
 
 // CacheClient defines the methods used by the manager.

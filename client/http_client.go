@@ -3,7 +3,7 @@ package client
 import (
 	"context"
 
-	cachesdk "multi-level-cache-go-sdk/cache"
+	cachesdk "github.com/nikolaynn/multi-level-cache-go-sdk/cache"
 )
 
 // HttpCacheClient wraps the SDK client.
