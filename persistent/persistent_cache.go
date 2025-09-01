@@ -3,6 +3,7 @@ package persistent
 import (
 	"context"
 	"encoding/json"
+	"fmt"
 
 	cachesdk "github.com/nikolaynn/multi-level-cache-go-sdk/cache"
 )
@@ -41,6 +42,7 @@ func (c *PersistentCache) PutAll(ctx context.Context, values map[string]any) err
 	for k, v := range values {
 		entries = append(entries, cachesdk.CacheEntry[any]{CacheName: c.name, Key: k, Value: v})
 	}
+	fmt.Printf("ENTRIES %+v\n", entries)
 	return c.client.PutAll(ctx, entries)
 }
 
