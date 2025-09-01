@@ -2,9 +2,8 @@ package persistent
 
 import (
 	"context"
+	"github.com/NikolayNN/aur-cache-service-client-go/client"
 	"testing"
-
-	"aur-cache-service-client-go/client"
 )
 
 type testUser struct{ Name string }

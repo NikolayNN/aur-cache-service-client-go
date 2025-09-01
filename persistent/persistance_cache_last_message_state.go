@@ -3,8 +3,8 @@ package persistent
 import (
 	"context"
 	"fmt"
+	"github.com/NikolayNN/aur-cache-service-client-go/models"
 
-	"aur-cache-service-client-go/models"
 	cachesdk "github.com/nikolaynn/multi-level-cache-go-sdk/cache"
 )
 
